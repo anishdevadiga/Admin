@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/white"
+    android:backgroundTint="@color/white"
+    android:background="@drawable/dashboard_cardview"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_centerVertical="true"
+            android:id="@+id/otherpic"
+            android:scaleType="fitXY"
+            app:shapeAppearanceOverlay="@style/circular"
+            app:strokeWidth="2dp"
+            android:layout_marginBottom="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/othername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/otherpic"
+            android:fontFamily="@font/amaranth"
+            android:text="Cab Name"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:paddingTop="10dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="135dp"
+            app:cornerRadius="30dp"
+            android:id="@+id/btnotheredit"
+            android:text="Edit"
+            android:textStyle="bold"
+            android:fontFamily="@font/andika"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:layout_alignTop="@+id/othername"
+            android:backgroundTint="@color/blue"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="135dp"
+            app:cornerRadius="30dp"
+            android:id="@+id/btnotherdelete"
+            android:text="Delete"
+            android:textStyle="bold"
+            android:fontFamily="@font/andika"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:layout_alignTop="@+id/btnotheredit"
+            android:backgroundTint="@color/blue"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rentadd"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add Details"
+        android:textAllCaps="false"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:fontFamily="@font/amaranth"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="Name"
+        android:fontFamily="@font/alatsi"
+        android:textStyle="bold"
+        android:textColor="@color/blue"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:id="@+id/uprentname"
+        android:textColor="@color/blue"
+        android:hint=" Name"
+        android:textColorHint="@color/blue"
+        android:textAlignment="center"
+        android:paddingStart="20dp"
+        android:gravity="center"
+        android:maxHeight="48dp"
+        android:textSize="15sp"
+        android:paddingEnd="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+
+        android:text="Price"
+        android:fontFamily="@font/alatsi"
+        android:textStyle="bold"
+        android:textColor="@color/blue"/>
+
+    <EditText
+        android:id="@+id/uprentprice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:hint="Price"
+        android:maxHeight="48dp"
+        android:paddingStart="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue"
+        android:textSize="15sp"
+        android:paddingEnd="20dp"/>
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+
+
+        android:text="Ratings"
+        android:fontFamily="@font/alatsi"
+        android:textStyle="bold"
+        android:textColor="@color/blue"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:id="@+id/uprentrating"
+        android:hint="Hotel Rating"
+        android:textColorHint="@color/blue"
+        android:textAlignment="center"
+        android:paddingStart="20dp"
+        android:gravity="center"
+        android:textColor="@color/blue"
+        android:textSize="15sp"
+        android:maxHeight="48dp"
+        android:paddingEnd="20dp"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+
+        android:text="Phone number"
+        android:fontFamily="@font/alatsi"
+        android:textStyle="bold"
+        android:textColor="@color/blue"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:id="@+id/uprentnum"
+        android:textColor="@color/blue"
+        android:hint="Number"
+        android:textColorHint="@color/blue"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:paddingStart="20dp"
+        android:textSize="15sp"
+        android:maxHeight="48dp"
+        android:paddingEnd="20dp"/>
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text=" Status"
+        android:fontFamily="@font/alatsi"
+        android:textStyle="bold"
+        android:textColor="@color/blue"/>
+
+    <EditText
+        android:id="@+id/uprentstatus"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:textColor="@color/blue"
+        android:hint=" Status"
+        android:paddingStart="20dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColorHint="@color/blue"
+        android:paddingEnd="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+
+
+        android:text="Location"
+        android:fontFamily="@font/alatsi"
+        android:textStyle="bold"
+        android:textColor="@color/blue"/>
+
+    <EditText
+        android:id="@+id/uprentloc"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:hint=" Location"
+        android:paddingStart="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue"
+        android:textSize="15sp"
+        android:paddingEnd="20dp"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+
+        android:text="Time"
+        android:fontFamily="@font/alatsi"
+        android:textStyle="bold"
+        android:textColor="@color/blue"/>
+
+    <EditText
+        android:id="@+id/uprenttime"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:hint="Timing"
+        android:paddingStart="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue"
+        android:textSize="15sp"
+        android:paddingEnd="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+
+
+        android:text="Picture"
+        android:fontFamily="@font/alatsi"
+        android:textStyle="bold"
+        android:textColor="@color/blue"/>
+
+    <EditText
+        android:id="@+id/uprentpic"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:hint="picture"
+        android:paddingStart="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue"
+        android:textSize="15sp"
+        android:paddingEnd="20dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="85dp"
+
+            android:id="@+id/btnadd"
+            android:text="Add"
+            app:cornerRadius="30dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/andika"
+            android:textSize="15sp"
+            android:backgroundTint="@color/blue"
+            android:textAllCaps="false"
+            android:layout_gravity="center_vertical"
+
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/btnback"
+            android:text="Back"
+            app:cornerRadius="30dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/andika"
+            android:textSize="15sp"
+            android:backgroundTint="@color/blue"
+            android:textAllCaps="false"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

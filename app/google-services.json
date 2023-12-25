@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "706689153297",
+    "firebase_url": "https://explore-udupi-default-rtdb.firebaseio.com",
+    "project_id": "explore-udupi",
+    "storage_bucket": "explore-udupi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706689153297:android:cb758502b11ca8fac8f4b0",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706689153297-hpm738hd254qk56svcprtpu93rjf10ms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaEtC7qowCTHuysZ--cimX5SFsnkYk7ls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706689153297-hpm738hd254qk56svcprtpu93rjf10ms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706689153297:android:fbf0b3e48d79fed9c8f4b0",
+        "android_client_info": {
+          "package_name": "com.example.exploreudupi_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706689153297-hpm738hd254qk56svcprtpu93rjf10ms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaEtC7qowCTHuysZ--cimX5SFsnkYk7ls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706689153297-hpm738hd254qk56svcprtpu93rjf10ms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706689153297:android:76856dc9827adca0c8f4b0",
+        "android_client_info": {
+          "package_name": "com.example.project39"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706689153297-hpm738hd254qk56svcprtpu93rjf10ms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaEtC7qowCTHuysZ--cimX5SFsnkYk7ls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706689153297-hpm738hd254qk56svcprtpu93rjf10ms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

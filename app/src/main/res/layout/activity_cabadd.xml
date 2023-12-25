@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cabadd"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Add Details"
+        android:textAllCaps="false"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:fontFamily="@font/amaranth"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+
+        android:text="Name"
+        android:fontFamily="@font/alatsi"
+        android:textStyle="bold"
+        android:textColor="@color/blue"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:id="@+id/cabname"
+        android:textColor="@color/blue"
+        android:hint="Name"
+        android:textColorHint="@color/blue"
+        android:textAlignment="center"
+        android:paddingStart="20dp"
+        android:gravity="center"
+        android:maxHeight="48dp"
+        android:textSize="15sp"
+        android:paddingEnd="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:text="Price"
+        android:fontFamily="@font/alatsi"
+        android:textStyle="bold"
+        android:textColor="@color/blue"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:id="@+id/cabprice"
+        android:maxHeight="48dp"
+        android:hint="Price"
+        android:textColorHint="@color/blue"
+        android:textAlignment="center"
+        android:paddingStart="20dp"
+        android:textColor="@color/blue"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:paddingEnd="20dp"/>
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+
+        android:text="Ratings"
+        android:fontFamily="@font/alatsi"
+        android:textStyle="bold"
+        android:textColor="@color/blue"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:id="@+id/cabrating"
+        android:hint="Ratings"
+        android:textColorHint="@color/blue"
+        android:textAlignment="center"
+        android:paddingStart="20dp"
+        android:gravity="center"
+        android:textColor="@color/blue"
+        android:textSize="15sp"
+        android:maxHeight="48dp"
+        android:paddingEnd="20dp"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+
+        android:text="Phone number"
+        android:fontFamily="@font/alatsi"
+        android:textStyle="bold"
+        android:textColor="@color/blue"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:id="@+id/cabnumber"
+        android:textColor="@color/blue"
+        android:hint="Number"
+        android:textColorHint="@color/blue"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:paddingStart="20dp"
+        android:textSize="15sp"
+        android:maxHeight="48dp"
+        android:paddingEnd="20dp"/>
+  <!--  <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+
+        android:text=" Status"
+        android:fontFamily="@font/alatsi"
+        android:textStyle="bold"
+
+        android:textColor="@color/blue"/>
+
+    <EditText
+        android:id="@+id/cabstatus"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:textColor="@color/blue"
+        android:hint=" Status"
+        android:paddingStart="20dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColorHint="@color/blue"
+        android:paddingEnd="20dp"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+
+        android:text="Picture"
+        android:fontFamily="@font/alatsi"
+        android:textStyle="bold"
+        android:textColor="@color/blue"/>
+
+    <EditText
+        android:id="@+id/cabpic"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:hint="picture"
+        android:paddingStart="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue"
+        android:textSize="15sp"
+        android:paddingEnd="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btncabadd"
+            android:layout_width="100dp"
+
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="55dp"
+            android:layout_marginEnd="55dp"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/andika"
+            android:text="Add"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:cornerRadius="30dp"
+
+            />
+
+        <Button
+            android:id="@+id/btncabback"
+            android:layout_width="100dp"
+
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="55dp"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/andika"
+            android:text="back"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:cornerRadius="30dp"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
